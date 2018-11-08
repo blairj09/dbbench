@@ -1,0 +1,13 @@
+Package: dbbench
+Title: Database Benchmarking via microbenchmark
+Version: 0.0.0.9000
+Authors@R: person("James", "Blair", email = "james.m.blair09@gmail.com", role = c("aut", "cre"))
+Description: This package uses the microbenchmark package to run benchmarks against various DBI connections.
+Depends: R (>= 3.5.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    microbenchmark,
+    rlang
+RoxygenNote: 6.1.1
